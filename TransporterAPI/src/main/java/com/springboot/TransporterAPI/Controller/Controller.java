@@ -18,7 +18,7 @@ import com.springboot.TransporterAPI.model.TransporterResponse;
 
 @RestController
 public class Controller extends ResponseEntityExceptionHandler {
-	//Edited some changes
+	
 	@Autowired
 	private TransporterService service;
 	
